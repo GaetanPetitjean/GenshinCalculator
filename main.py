@@ -24,7 +24,7 @@ elif choice == list[1] or choice == list[2]:
 
         jewels = Jewels(jew_green, jew_blue, jew_purple, jew_orange)
         jewels.calcul_jewels()
-        print("Nombre de joyaux - Orange:", jewels.get_nb_purple(), "/ Violet:",jewels.get_nb_blue(), "/ Bleu:", jewels.get_nb_green(), "/ Blanc:", jewels.get_nb_white())
+        print("Nombre de joyaux - Orange:", jewels.get_nb_purple(), "/ Violet:",jewels.get_nb_blue(), "/ Bleu:", jewels.get_nb_green(), "/ Vert:", jewels.get_nb_white())
 
 elif choice == list[3] or list[4] == choice:
         mat_white = int(input("Nb blanc:"))
